@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    font-size: 14px;
+}
+
+.container {
+    padding: 0 50px;
+    width: 100%;
+}
+
+/* Header  */
+header {
+    width: 100%;
+    height: 40px;
+    background: #EBA707;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icons>img {
+    margin-right: 22px;
+}
+
+.header-contact {
+    display: flex;
+}
+
+.header-contact>span {
+    font-size: 12px;
+    margin-right: 37px;
+
+}
+
+.header-contact>h2 {
+    font-size: 14px;
+}
+
+/* HEader links */
+.header-links {
+    width: 100%;
+    height: 119px;
+    background: #0C0C0C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links>.container>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.now {
+    color: #FFFFFF !important;
+    border-bottom: 1px solid #EBA707;
+}
+
+.navigation>a {
+    text-decoration: none;
+    color: #EBA707;
+    margin-left: 30px;
+}
+
+/* Main Nav */
+.main-nav {
+    width: 100%;
+    height: 72px;
+    background: #383838;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav>a {
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.main-nav>a:active {
+    color: #FFFFFF;
+}
+
+/* Ads */
+.main-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+}
+
+.ads-cont {
+    padding-top: 61px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name-block {
+    display: flex;
+    height: 320px;
+    align-items: center;
+    width: 680px;
+
+}
+
+.name-block>div {
+    height: 173px;
+    width: 2px;
+    background: #FFFFFF;
+    margin-right: 28px;
+}
+
+.name-block>span {
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.card {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 43px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card-inner>h3 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.card-inner>span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Print */
+.print {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.print-cont {
+    padding-top: 61px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.print-name {
+    display: flex;
+    align-items: center;
+    height: 320px;
+
+}
+
+.print-name>div {
+    height: 194px;
+    width: 2px;
+    background: #B7B7B7;
+    margin-right: 23px;
+}
+
+.print-name>span {
+    font-weight: 300;
+    font-size: 57px;
+    text-transform: uppercase;
+    color: #B7B7B7;
+}
+
+/* PolyGraph */
+.polygr {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #3A3A3A;
+}
+
+.polygr-cont {
+    padding-top: 61px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.polygr-name {
+    display: flex;
+    align-items: center;
+    height: 320px;
+
+}
+
+.polygr-name>div {
+    height: 194px;
+    width: 2px;
+    background: #B7B7B7;
+    margin-right: 23px;
+}
+
+.polygr-name>span {
+    font-weight: 300;
+    font-size: 57px;
+    text-transform: uppercase;
+    color: #B7B7B7;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 220px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-links {
+    width: 634px;
+    height: 81px;
+}
+
+
+footer>img {
+    width: 207px;
+    height: 60px;
+}
+
+.navigation-footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navigation-footer>a {
+    margin: 0;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 105px;
+    width: 176px;
+}
+
+.footer-contacts>div {
+    display: flex;
+
+    /* margin-top: 18px; */
+}
+
+.footer-contacts>div>a {
+    color: #EBA707;
+    margin-right: 23px;
+}
+
+.footer-contacts>div>img {
+    margin-right: 18px;
+}
